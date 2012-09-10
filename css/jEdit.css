@@ -1,0 +1,57 @@
+/*
+*
+*	Author: Alexandr Bobkov
+*	URL: http://lilalex.comuv.com/jedit/demo.html
+*	Version: 1.0
+*	Copyright 2012
+*
+*/
+
+body {font-family: "Arial",Helvetica,sans-serif; font-size: 12px; color: #000; margin: 0;}
+input[type='submit'],input[type='button']{height: 30px;background: #292b2c; border: 1px solid #000; border-radius: 3px; color: #fff;  box-shadow: 1px 1px 3px #222; text-shadow: -1px -1px black; cursor: pointer; font-size: 12px;	padding: 6px 12px;}
+input[type='submit']:hover{background: #333;}
+input[type='button']:hover{background: #333;}
+hr{border: 0;border-top: 1px solid #ddd;	margin: 10px 0;float: left;width: 100%; *width:340px;}
+li{list-style:none;}
+
+#jEdit-wrapper{box-shadow: 2px 2px 5px #999;margin: 0 auto;}
+#jEdit{border: 1px solid #ddd;padding: 10px;overflow:scroll;}
+#jEdit li{list-style: circle outside;}
+#jEdit-html-view{display:none;width: 100%;}
+/* Buttons Wrapper */
+#jEdit-control-buttons{background: #999;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));background: -moz-linear-gradient(top,  #fff,  #e6e6e6);background: -ms-linear-gradient(top, #ffffff, #e6e6e6);padding: 10px;border: 1px solid #ddd;border-bottom: 1px solid #aaa;cursor:default;}
+#jEdit-control-buttons button{width:25px; height:25px; border:1px solid transparent; cursor:pointer;display: inline-block;}
+#jEdit-control-buttons button:hover{border: 1px solid #98A6BA; background-color:#DDE4EF;}
+/* Buttons */
+#jEdit-html{background: url('../images/jEdit-icons.png') -1px -1px no-repeat;}
+#jEdit-bold{background: url('../images/jEdit-icons.png') -25px -1px no-repeat;}
+#jEdit-italic{background: url('../images/jEdit-icons.png') -45px -1px no-repeat;}
+#jEdit-underline{background: url('../images/jEdit-icons.png') -65px -1px no-repeat;}
+#jEdit-list{background: url('../images/jEdit-icons.png') -91px -1px no-repeat;}
+#jEdit-img{background: url('../images/jEdit-icons.png') -120px -1px no-repeat;}
+#jEdit-youtube{background: url('../images/jEdit-icons.png') -146px -1px no-repeat;}
+#jEdit-link{background: url('../images/jEdit-icons.png') -175px -1px no-repeat;}
+#jEdit-unlink{background: url('../images/jEdit-icons.png') -199px -1px no-repeat;}
+#jEdit-table{background: url('../images/jEdit-icons.png') -228px -1px no-repeat;}
+/* Table */
+#jEdit table {border-top: 1px solid #777;border-right: 1px solid #777;}
+#jEdit table tr td{ min-width:23px; height:23px;border-bottom: 1px solid #777;border-left: 1px solid #777;}
+.jEdit-html{background-color: #D6D6D6 !important;border: 1px solid #AAA !important;}
+.bold{font-weight:bold;}
+
+/* PopUps */
+.styledButtonOverlay{background: #fff;background: none\9;position: relative;width: 100%;height: 13px;top: -31px;opacity: 0.2;filter: alpha(opacity=20);*background: none;}
+.popup-wrapper{position:absolute;background: rgba(0,0,0,0.6);border-radius: 5px;padding: 10px;min-width: 400px;display:none;z-index:2;}
+.popup-wrapper h6{color: #444;font-size: 14px;margin: 0;text-shadow: 1px 1px 1px #DDD, -1px -1px -1px white;}
+.popup-wrapper h4{color: #666;font-style: italic;font-size: 12px;font-weight: normal;text-align: center;}
+.popup-close-button{background: url('../images/close_popup_button.png') no-repeat;width: 14px;height: 14px;position: absolute;top: 33px;right: 25px;cursor: pointer;}
+.popup-header-wrapper{background: #999;background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e6e6));background: -moz-linear-gradient(top,  #fff,  #e6e6e6);background: -ms-linear-gradient(top, #ffffff, #e6e6e6);padding: 22px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom: 1px solid white;}
+.popup-content-wrapper{background:#fff;border-top: 1px solid #BABABA;}
+.popup-content{margin:0;padding:0;}
+.popup-footer-wrapper{background:#fff; border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;padding: 25px 30px 0 30px;text-align: center;}
+.popup-footer-wrapper div{display: inline-block;}
+.jEdit-popup ul{padding: 1px 10px;}
+.jEdit-popup ul li{margin:10px;}
+.jEdit-popup label{color: #555;font-size: 14px;font-weight: normal;margin: 0;display: inline-block;width: 50px;}
+.jEdit-popup hr{width:90%; margin-left: 5%;}
+.jEdit-popup input[type='text']{width:300px;}
