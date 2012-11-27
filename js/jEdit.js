@@ -1,8 +1,8 @@
 /*
 *
 *	Author: Alexandr Bobkov
-*	URL: http://lilalex.comuv.com/jedit/demo.html
-*	Version: 1.0
+*	URL: http://lilalex.comuv.com/projects/jedit/demo.html
+*	Version: 1.0.1
 *	Copyright 2012
 *
 */
@@ -26,7 +26,7 @@ var range;
 			case 'jEdit-html':		if($(this).attr('class') == 'jEdit-html'){
 										$('#jEdit').html($('#jEdit-html-view').val());
 									}else{
-										$('#jEdit-html-view').text($('#jEdit').html());
+										$('#jEdit-html-view').val($('#jEdit').html());
 									}
 									$('#jEdit').toggle();
 									$('#jEdit-html-view').toggle();
